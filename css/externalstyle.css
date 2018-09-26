@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	color: brown;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: justify;
+	line-height: 140%;
+	width: 400px;
+}
+body {
+	background-color: #00ffbd;
+	background-image: url(images/monkaS.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 70px;/* text-decoration: underline; */
+}
+
+#den-anden{
+	color: #00EEFF;
+}
+a {
+	color: #FF00F9;
+	text-decoration: none;
+	display: block;
+}
+a:link {
+	color: #A800FF
+}
+a:visited {
+	color: cornflowerblue;
+}
+a:hover {
+	color: #3BFF00;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 40px;
+}
+a:active {
+	color: indianred;
+}
+
+.fire-ben {
+	color: darkorchid;
+	font-weight: bold; 
+}
+
+.to-ben {
+	color: tomato;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+span {
+	font-weight: bolder;
+	background-color: crimson;
+	color: aqua;
+}
+
+#kasse1 {
+	background-color: violet;
+	margin: 50px;
+	border-width: 2px;
+	border-style: dotted;
+	width: 50%;
+	float: left;
+	
+}
+
+#kasse2 {
+	background-color: darkorange;
+	padding: 50px;
+	border: 3px dashed #444;
+	width: 300px;
+	height: 600px;
+	float: right;
+}
+
+.tekst {
+	position: absolute;
+	top: 20px;
+	right: 31px;
+	border: solid;
+}
+.tekst2 {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+
+
+
+
+

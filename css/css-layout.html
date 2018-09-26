@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Styling med Flexbox</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			height: 500px;
+			background: #A600FF;
+			align-items: flex-start;
+			align-content: flex-end;
+		}
+		.flex-item {
+			background-color: gold;
+			margin: 10px;
+			padding: 10px;
+			width: 170px;
+		}
+		.flex-item-special {
+			order: -1;
+			background-color: lawngreen;
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	  <div class="flex-item">1</div>
+	  <div class="flex-item">2</div>
+	  <div class="flex-item">3</div>
+	  <div class="flex-item flex-item-special">4</div>
+	  <div class="flex-item">5<br>5</div>
+	  <div class="flex-item">6</div>
+	</div>
+</body>
+</html>
